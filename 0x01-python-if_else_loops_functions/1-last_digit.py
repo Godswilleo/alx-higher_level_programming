@@ -9,7 +9,7 @@ if (l_num_int > 5):
     print(f"Last digit of {number} is {l_num_int} and is greater than 5")
 
 elif (l_num_int == 0):
-    print(f"Last digit of {number} is {l_num_int,} and is 0")
+    print(f"Last digit of {number} is {l_num_int} and is 0")
 
 else:
     last_line = "and is less than 6 and not 0"
