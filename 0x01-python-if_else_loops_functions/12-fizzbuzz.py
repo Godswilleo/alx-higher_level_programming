@@ -9,9 +9,7 @@ def fizzbuzz():
             print("Buzz ", end="")
 
         elif (i % 3 == 0):
-           print("Fizz ", end="")
+            print("Fizz ", end="")
 
         else:
             print("{} ".format(i), end="")
-
-
