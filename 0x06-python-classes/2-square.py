@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-# 0-square.py by Godswill Enaohwo
+# 2-square.py by Godswill Enaohwo
 """Defines a square """
 
 
 class Square:
     """Represents a square"""
 
-    def __init__(self, size):
+    def __init__(self, size=0):
         """Initializing this square class
         Args: 
             size: represents the size of the square defined
