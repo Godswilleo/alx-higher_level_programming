@@ -1,0 +1,2 @@
+# Python - everython is object
+
