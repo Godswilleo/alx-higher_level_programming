@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-""" module demonstrates writing to txt files """
+"""This module defines a file-writing function."""
 
 
 def write_file(filename="", text=""):
-    """ function demonstrates writing to a txt file """
-    with open(filename, mode="w", encoding="utf-8") as f:
-        f.write(text)
+    """Writes a string to a UTF8 text file
+    """
+    with open(filename, "w", encoding="utf-8") as f:
+        return f.write(text)
