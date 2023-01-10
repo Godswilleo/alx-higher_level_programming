@@ -2,9 +2,5 @@
 
 def read_file(filename=""):
     with open(filename,'r', encoding='utf-8') as f:
-	    line = f.readline()
-
-        if not line:
-            break
-        print(line)
+        print(f.read(), end="")
 	    
